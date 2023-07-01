@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 2rem;
+}
+/* body{
+    height: 300vh;
+} */
+
+#navbar{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+#home{
+     position: relative;
+     height: 100vh;
+}
+#home::before{
+    content: "";
+    background: url(images/securehack\ bg.jpg) center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.project{
+    color: white;
+    font-size: 3.5rem;
+    position: relative;
+    top: 9rem;
+    left: 9rem;
+    font-family: 'Roboto Slab', serif;
+    width: 60%;
+   
+}
+.dependo{
+    color: white;
+    font-size: 6rem;
+    position: relative;
+    top: 7rem;
+    left: 4rem;
+    font-family: 'Roboto Slab', serif;
+    width: 60%;
+}
+
+#projectdescription{
+    height: 100vh;
+    position: relative;
+}
+#projectdescription::before{
+    content: "";
+    background: url(images/BG.jpg) center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+.description{
+    color: white;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 2rem;
+    
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+}
+

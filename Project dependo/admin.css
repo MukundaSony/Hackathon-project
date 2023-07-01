@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #8767b3, #5c3d3e);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto Slab', serif;
+  }
+
+ .dip{
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 3rem 0rem;
+ }
+
+ .checkvul{
+    margin-top: 2rem;
+ }
+ .checkupdate{
+    margin-top: 2rem;
+ }
+ .upgrade{
+    margin-top: 5rem;
+ }
+ .revert{
+    margin-top: 1rem;
+ }
+ .hidden1 {
+    display:none;
+  }
+    
+  .bell{
+   position: relative;
+   top: -5rem;
+   left: 73rem;
+   
+  }
+
+  .animatedbell {
+    animation-name: bell;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 8;
+  }
+  
+  @keyframes bell {
+    0% {
+    filter: none;
+    }
+    50% {
+      filter: invert(100%); /* midway through the animation */
+    }
+    100% {
+      filter: none; /* final state */
+    }
+  }
+
+
+
+
